@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #121212, #1f1f1f);
+    background: linear-gradient(135deg, #111111, #1f1f1f);
     color: white;
     display: flex;
     justify-content: center;
@@ -31,15 +31,17 @@ h1 {
     justify-content: space-between;
     width: 300px;
     margin: 10px auto;
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 
 .x-player {
     color: #ff6347;
+    text-shadow: 0 0 5px #ff6347, 0 0 15px #ff6347;
 }
 
 .o-player {
     color: #1e90ff;
+    text-shadow: 0 0 5px #1e90ff, 0 0 15px #1e90ff;
 }
 
 /* Turn Indicator */
@@ -51,10 +53,15 @@ h1 {
 
 .turn-indicator .x {
     color: #ff6347;
+    text-shadow: 0 0 5px #ff6347, 0 0 15px #ff6347;
+    font-size: 20px;
 }
 
 .turn-indicator .o {
     color: #1e90ff;
+    text-shadow: 0 0 5px #1e90ff, 0 0 15px #1e90ff;
+    font-size: 20px;
+
 }
 
 /* Board */
@@ -89,11 +96,13 @@ h1 {
 .x {
     color: #ff6347;
     text-shadow: 0 0 5px #ff6347, 0 0 15px #ff6347;
+    font-size: 50px;
 }
 
 .o {
     color: #1e90ff;
     text-shadow: 0 0 5px #1e90ff, 0 0 15px #1e90ff;
+    font-size: 50px;
 }
 
 /* Restart button */
@@ -139,7 +148,7 @@ button:hover {
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    box-shadow: 0 0 20px #00ffcc;
+    box-shadow: 0 0 30px #00ffcc;
 }
 
 .popup-content.x {
@@ -160,7 +169,7 @@ button:hover {
     background: #ff6347;
     color: white;
     border: none;
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 5px;
     cursor: pointer;
 }
